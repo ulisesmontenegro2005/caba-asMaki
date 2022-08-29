@@ -1,0 +1,25 @@
+.section{
+    background-color: #616A6B;
+    color: #D0D3D4;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 2% 0 2%;
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+    h2{
+        font-size: x-large;
+        text-align: center;
+    }
+    p{
+        width: 50%;
+        align-self: center;
+    }
+    iframe{
+        border-radius: 10px;
+        align-self: center;
+    }
+}

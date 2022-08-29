@@ -5,21 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Cabañas Maki </title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="grid">
-        <header>
+
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/">
+                  <img class="imgNavbar" src="img/logoMaki.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <img class="imgNavbar" src="img/logoMaki.png" alt="">
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#header">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#main">Informacion</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </nav>
+
+        <header id="header" class="header">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/img-20161205-wa0034-largejpg.jpeg" class="d-block w-100" alt="...">
+                    <div class="textoCarousel">
+                        <p>visitanos en</p>
+                        <h2>El Bolsón</h2>
+                    </div>
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="img/nada-como-levantarse.jpeg" class="d-block w-100" alt="...">
+                    <div class="textoCarousel">
+                        <p>visitanos en</p>
+                        <h2>El Bolsón</h2>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </header>
 
-        <main>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#616A6B" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+
+        <main class="main" id="main">
+            <h1>ALOJAMIENTO</h1>
+            <h3>- nuestros servicios -</h3>
+            <p>Poseemos de multiples modalidades de hospedaje, como dormis (incluye solo alojamiento para dormir), además cabañas (las cuales tienen cocina, comedor y habitaciones, es decir 4 ambientes) y también un servicio de camping el cual consta de baños (con agua caliente), un comedor para los que esten acampando y un pequeño almacen el cual tiene comida y productos básicos.</p>
+            <div class="mainImgs">
+                <img class="imgCabaña" src="img/cabaña.jpeg" alt="cabaña">
+                <img class="imgDormis" src="img/dormisYmontañas.jpeg" alt="dormis">
+                <img class="imgDormisYPasto" src="img/pastoYdormis.jpeg" alt="pasto y dormis">
+            </div>
         </main>
 
-        <section>
+        <section class="section">
+            <h1>UBICACIÓN</h1>
+            <h2>- donde nos encontramos -</h2>
+            <p>Nuestro establecimiento se encuentra en la Ruta Nacional 40 km 1933, El Bolsón, Río Negro, ubicado aproximadamente entre Bariloche y El Bolsón, el lugar tiene un tamaño exacto de 6 hectareas y esta atravesado por el Río Quenquemtreu y el Río Los Repollos, formandose un tramo en el que se pueden disfrutar estas aguas tan cristalinas.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2666.5728039081782!2d-71.5399681520589!3d-41.93954335281318!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5bca3f73f58732c1!2sCamping%20Kumelen!5e0!3m2!1ses-419!2sar!4v1661797393273!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
-        <footer>
+        <footer class="footer">
         </footer>
-    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>
