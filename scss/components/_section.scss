@@ -1,25 +1,40 @@
-.section{
-    background-color: #616A6B;
+section{
     color: #D0D3D4;
     height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 70px 2% 0 2%;
-    h1{
+    h2{
+        padding-top: 76px;
         width: 100%;
         text-align: center;
+        margin: 0;
+        padding-bottom: 16px;
+        background-color: #616A6B;
     }
-    h2{
+    h3{
         font-size: x-large;
         text-align: center;
+        margin: 0;
+        padding-bottom: 16px;
+        background-color: #616A6B;
     }
     p{
-        width: 50%;
+        width: 100%;
+        padding: 0 25% 0 25%;
         align-self: center;
+        margin: 0;
+        padding-bottom: 16px;
+        background-color: #616A6B;
     }
-    iframe{
-        border-radius: 10px;
+    #mapa{
+        position: relative !important;
+        padding: 0 35% 0 35%;
+        width: 100%;
         align-self: center;
+        background-color: #616A6B;
+    }
+    svg{
+        margin-top: -100px;
     }
 }

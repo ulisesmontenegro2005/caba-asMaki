@@ -1,0 +1,40 @@
+aside{
+    margin-top: 50px;
+    .img_background_bottom{
+        background-image: url(../../img/nada-como-levantarse.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        opacity: 0.6;
+        height: 20em;
+        height: 480px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .imgOpacity{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: #616A6B;
+            opacity: 0.8;
+            border-radius: 100px;
+            .pTittle{
+                font-size: 2.5rem;
+                line-height: 1.2;
+                width: 60%;
+                text-align: center;
+                color: #D0D3D4;
+                font-weight: 800;
+                margin-bottom: 8px;
+            }
+            .pSubtittle{
+                width: 60%;
+                text-align: center;
+                color: #D0D3D4;
+                font-weight: 600;
+            }
+        }
+    }
+}

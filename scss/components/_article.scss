@@ -1,0 +1,50 @@
+article{
+    color: #D0D3D4;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+        h3{
+            width: 100%;
+            text-align: center;
+            margin: 0;
+            padding-bottom: 16px;
+            background-color: #616A6B;
+            font-size: 2rem;
+            line-height: 1.2;
+            font-weight: 500;
+        }
+        h4{
+            font-size: x-large;
+            text-align: center;
+            margin: 0;
+            padding-bottom: 16px;
+            background-color: #616A6B;
+        }
+        p{
+            width: 100%;
+            padding: 0 25% 0 25%;
+            align-self: center;
+            margin: 0;
+            padding-bottom: 16px;
+            background-color: #616A6B;
+            position: relative !important;
+        }
+        .containerLogos{
+            padding-top: 20px;
+            background-color: #616A6B;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            position: relative !important;
+            a{
+                svg{
+                    color: rgb(3, 58, 3);
+                }
+            }
+        }   
+        .svgBottomBottom{
+            margin-top: -100px;
+        }
+}

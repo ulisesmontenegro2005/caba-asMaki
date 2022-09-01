@@ -1,86 +1,132 @@
 .header {
   margin-top: 125px;
   width: 100%;
-  height: 430px;
-  display: flex;
-  justify-content: center; }
-  .header div {
-    height: 430px;
-    width: 813px; }
-    .header div img {
-      height: 430px;
-      width: 813px; }
-  .header .textoCarousel {
-    color: #D0D3D4;
-    position: absolute;
-    margin-top: 70px;
-    top: 1px;
-    height: 100px;
-    width: 20%;
+  height: 430px; }
+  .header .img_background_top {
+    background-image: url(../../img/img-20161205-wa0034-largejpg.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 20em;
+    height: 480px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-content: flex-end;
-    background-color: #424949;
-    border-top-right-radius: 20px; }
-    .header .textoCarousel p {
-      margin: 0; }
-  .header .carousel-indicators {
-    height: 10px;
-    width: 813px;
-    margin-left: 0;
-    margin-right: 0; }
+    align-items: center; }
 
-svg {
-  margin-top: -60px; }
+.imgOpacity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #616A6B;
+  opacity: 0.7;
+  border-radius: 100px; }
+  .imgOpacity h1 {
+    width: 60%;
+    text-align: center;
+    color: #D0D3D4;
+    font-weight: 800; }
+  .imgOpacity .pSubtittle {
+    width: 60%;
+    text-align: center;
+    color: #D0D3D4;
+    font-weight: 600; }
 
 .main {
-  background-color: #616A6B;
+  background-color: #424949;
   color: #D0D3D4;
   display: flex;
-  flex-direction: column;
-  padding: 0 2% 0 2%; }
-  .main h1 {
+  flex-direction: column; }
+  .main svg {
+    margin-top: -60px;
+    width: 100%; }
+  .main h2 {
     width: 100%;
-    text-align: center; }
+    text-align: center;
+    background-color: #616A6B;
+    margin: 0;
+    padding-bottom: 16px; }
   .main h3 {
     font-size: x-large;
-    text-align: center; }
+    text-align: center;
+    background-color: #616A6B;
+    margin: 0;
+    padding-bottom: 16px; }
   .main p {
-    width: 50%;
-    align-self: center; }
+    width: 100%;
+    align-self: center;
+    background-color: #616A6B;
+    margin: 0;
+    padding: 0% 25% 16px 25%; }
   .main .mainImgs {
     display: flex;
     justify-content: center;
-    gap: 30px; }
+    gap: 30px;
+    background-color: #616A6B; }
     .main .mainImgs img {
       width: 175px;
       height: 175px;
       border-radius: 240px; }
 
-.section {
-  background-color: #616A6B;
+section {
   color: #D0D3D4;
   height: auto;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  padding: 70px 2% 0 2%; }
-  .section h1 {
+  flex-direction: column; }
+  section h2 {
+    padding-top: 76px;
     width: 100%;
-    text-align: center; }
-  .section h2 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 16px;
+    background-color: #616A6B; }
+  section h3 {
     font-size: x-large;
-    text-align: center; }
-  .section p {
-    width: 50%;
-    align-self: center; }
-  .section iframe {
-    border-radius: 10px;
-    align-self: center; }
+    text-align: center;
+    margin: 0;
+    padding-bottom: 16px;
+    background-color: #616A6B; }
+  section p {
+    width: 100%;
+    padding: 0 25% 0 25%;
+    align-self: center;
+    margin: 0;
+    padding-bottom: 16px;
+    background-color: #616A6B; }
+  section #mapa {
+    position: relative !important;
+    padding: 0 35% 0 35%;
+    width: 100%;
+    align-self: center;
+    background-color: #616A6B; }
+  section svg {
+    margin-top: -100px; }
 
 .footer {
-  height: 10px; }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  margin-top: 125px; }
+  .footer .div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.333%; }
+    .footer .div1 a {
+      color: #D0D3D4; }
+  .footer p {
+    width: 33.333%;
+    color: #D0D3D4;
+    text-align: center; }
+  .footer .div2 {
+    width: 33.333%;
+    color: #D0D3D4;
+    display: flex;
+    justify-content: center; }
 
 nav {
   max-height: 82px;
@@ -91,3 +137,81 @@ nav {
 
 body {
   background: #424949 !important; }
+
+aside {
+  margin-top: 50px; }
+  aside .img_background_bottom {
+    background-image: url(../../img/nada-como-levantarse.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.6;
+    height: 20em;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    aside .img_background_bottom .imgOpacity {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: #616A6B;
+      opacity: 0.8;
+      border-radius: 100px; }
+      aside .img_background_bottom .imgOpacity .pTittle {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        width: 60%;
+        text-align: center;
+        color: #D0D3D4;
+        font-weight: 800;
+        margin-bottom: 8px; }
+      aside .img_background_bottom .imgOpacity .pSubtittle {
+        width: 60%;
+        text-align: center;
+        color: #D0D3D4;
+        font-weight: 600; }
+
+article {
+  color: #D0D3D4;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  article h3 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 16px;
+    background-color: #616A6B;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 500; }
+  article h4 {
+    font-size: x-large;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 16px;
+    background-color: #616A6B; }
+  article p {
+    width: 100%;
+    padding: 0 25% 0 25%;
+    align-self: center;
+    margin: 0;
+    padding-bottom: 16px;
+    background-color: #616A6B;
+    position: relative !important; }
+  article .containerLogos {
+    padding-top: 20px;
+    background-color: #616A6B;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: relative !important; }
+    article .containerLogos a svg {
+      color: #033a03; }
+  article .svgBottomBottom {
+    margin-top: -100px; }
