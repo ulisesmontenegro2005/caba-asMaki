@@ -14,20 +14,20 @@
     align-items: center; }
 
 .imgOpacity {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   background-color: #616A6B;
-  opacity: 0.7;
-  border-radius: 100px; }
+  opacity: 0.7; }
   .imgOpacity h1 {
     width: 60%;
     text-align: center;
     color: #D0D3D4;
     font-weight: 800; }
   .imgOpacity .pSubtittle {
-    width: 60%;
+    width: 40%;
     text-align: center;
     color: #D0D3D4;
     font-weight: 600; }
@@ -55,6 +55,7 @@
   .main p {
     width: 100%;
     align-self: center;
+    text-align: center;
     background-color: #616A6B;
     margin: 0;
     padding: 0% 25% 16px 25%; }
@@ -91,6 +92,7 @@ section {
     width: 100%;
     padding: 0 25% 0 25%;
     align-self: center;
+    text-align: center;
     margin: 0;
     padding-bottom: 16px;
     background-color: #616A6B; }
@@ -129,11 +131,11 @@ section {
     justify-content: center; }
 
 nav {
-  max-height: 82px;
+  max-height: 90px;
   padding: 4% 0 4% 0; }
   nav .imgNavbar {
     width: 75px;
-    scale: 1.2; }
+    scale: 1.4; }
 
 body {
   background: #424949 !important; }
@@ -153,13 +155,13 @@ aside {
     justify-content: center;
     flex-direction: column; }
     aside .img_background_bottom .imgOpacity {
+      width: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
       background-color: #616A6B;
-      opacity: 0.8;
-      border-radius: 100px; }
+      opacity: 0.8; }
       aside .img_background_bottom .imgOpacity .pTittle {
         font-size: 2.5rem;
         line-height: 1.2;
@@ -169,12 +171,13 @@ aside {
         font-weight: 800;
         margin-bottom: 8px; }
       aside .img_background_bottom .imgOpacity .pSubtittle {
-        width: 60%;
+        width: 40%;
         text-align: center;
         color: #D0D3D4;
         font-weight: 600; }
 
 article {
+  margin-top: 125px;
   color: #D0D3D4;
   height: auto;
   width: 100%;
@@ -184,7 +187,7 @@ article {
     width: 100%;
     text-align: center;
     margin: 0;
-    padding-bottom: 16px;
+    padding: 100px 0px 16px 0px;
     background-color: #616A6B;
     font-size: 2rem;
     line-height: 1.2;
@@ -199,12 +202,13 @@ article {
     width: 100%;
     padding: 0 25% 0 25%;
     align-self: center;
+    text-align: center;
     margin: 0;
     padding-bottom: 16px;
     background-color: #616A6B;
     position: relative !important; }
   article .containerLogos {
-    padding-top: 20px;
+    padding: 20px 0 100px 0;
     background-color: #616A6B;
     width: 100%;
     display: flex;
@@ -213,5 +217,59 @@ article {
     position: relative !important; }
     article .containerLogos a svg {
       color: #033a03; }
-  article .svgBottomBottom {
-    margin-top: -100px; }
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  body {
+    width: 320px; }
+  nav {
+    width: 320px; }
+  .img_background_top {
+    margin-bottom: 500px;
+    width: 100%; }
+    .img_background_top .imgOpacity {
+      width: 100%; }
+      .img_background_top .imgOpacity h1 {
+        width: 320px; }
+      .img_background_top .imgOpacity .pSubtittle {
+        width: 320px;
+        padding: 0 15% 0 15%; }
+  main {
+    width: 100%;
+    margin-top: 200px; }
+    main .descInfo {
+      padding: 0 15% 0 15%; }
+    main .mainImgs {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 20px; }
+  section {
+    width: 100%;
+    background-color: #616A6B;
+    margin-bottom: 200px; }
+    section h2 {
+      padding-top: 50px; }
+    section .descInfo {
+      padding: 0 15% 0 15%; }
+    section #mapa {
+      padding: 10% 10% 10% 10%;
+      border-radius: 250px;
+      margin-bottom: 100px; }
+    section svg {
+      background-color: #424949; }
+  aside {
+    width: 100%; }
+    aside .imgOpacity {
+      width: 100%; }
+      aside .imgOpacity .pTittle {
+        width: 100%; }
+      aside .imgOpacity .pSubtittle {
+        width: 100% !important;
+        height: 230px;
+        padding-right: 5px;
+        padding-left: 5px; }
+  article p {
+    padding: 0 15% 0 15%; }
+  footer {
+    width: 100%; }
+    footer .div2 p {
+      width: 100%; } }

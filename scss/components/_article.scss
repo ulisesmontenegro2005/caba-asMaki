@@ -1,4 +1,5 @@
 article{
+    margin-top: 125px;
     color: #D0D3D4;
     height: auto;
     width: 100%;
@@ -8,7 +9,7 @@ article{
             width: 100%;
             text-align: center;
             margin: 0;
-            padding-bottom: 16px;
+            padding: 100px 0px 16px 0px;
             background-color: #616A6B;
             font-size: 2rem;
             line-height: 1.2;
@@ -25,13 +26,14 @@ article{
             width: 100%;
             padding: 0 25% 0 25%;
             align-self: center;
+            text-align: center;
             margin: 0;
             padding-bottom: 16px;
             background-color: #616A6B;
             position: relative !important;
         }
         .containerLogos{
-            padding-top: 20px;
+            padding: 20px 0 100px 0;
             background-color: #616A6B;
             width: 100%;
             display: flex;
@@ -44,7 +46,4 @@ article{
                 }
             }
         }   
-        .svgBottomBottom{
-            margin-top: -100px;
-        }
 }
