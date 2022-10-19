@@ -1,0 +1,28 @@
+.divFotos{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 100px;
+    width: 100%;
+    padding: 0 25% 0 25%;
+    .fotoGaleria{
+        height: 150px;
+    }
+}
+
+.divFotos2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 90px;
+    margin-top: 50px;
+    padding: 0 25% 0 25%;
+    .fotoGaleria{
+        height: 150px;
+    }
+}
